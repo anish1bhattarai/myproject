@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:block;
+}
+.clearfix:after{
+	clear:both;
+}
+.wrapper{
+	width:400px;
+	height:667px;
+	margin:0px auto;
+	position:relative;
+    background-color:#0FC;
+}
+.road{
+	width:300px;
+	height:300700px;
+	margin:0px auto;
+	background-color:#000;
+	position:absolute;
+	left:50px;
+	background-image:url(pave.png);
+	
+}
+.car{
+	width:40px;
+	height:30px;
+	background-color:#0F0;
+	position:fixed;
+	top:350px;
+	left:660px;
+}
+.opponent{
+	width:40px;
+	height:30px;
+	background-color:#F00;
+	position:fixed;
+	top:-30px;
+	left:660px;
+}
+	
+	
+	
+
+
